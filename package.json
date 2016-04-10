@@ -13,7 +13,10 @@
   "dependencies": {
     "react": "0.14.x",
     "react-dom": "0.14.x",
-    "react-router": "^2.0.1"
+    "react-link-state": "^0.1.2",
+    "react-redux": "^4.4.2",
+    "react-router": "^2.0.1",
+    "redux": "^3.4.0"
   },
   "devDependencies": {
     "nwb": "0.9.x",

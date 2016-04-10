@@ -1,0 +1,19 @@
+body{
+  font-size:14px;
+}
+.widget{
+  display:inline-block;
+  vertical-align:top;
+  width:200px;
+  height:100px;
+  padding:1em;
+  background-color:#ccc;
+  .title{
+    margin:0 0 0.5em 0;
+    font-size:2em;
+  }
+  .value{
+    margin:0.5em 0;
+    font-size:1em;
+  }
+}
