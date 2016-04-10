@@ -10,7 +10,6 @@ export default React.createClass({
   },
   addWidget(e) {
     e.preventDefault();
-    console.log('dood', this.state.value, this.state.title);
     State.widgets.push({title: this.state.title, value: this.state.value});
     this.setState({ title: '', value: '' });
   },
